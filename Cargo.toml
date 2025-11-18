@@ -1,5 +1,5 @@
-[workspace]
-members = ["derive", "compatibility"]
+# [workspace]
+# members = ["derive", "compatibility"]
 
 [package]
 name = "bincode"
@@ -10,7 +10,7 @@ authors = [
     "Victor Koenders <bincode@trangar.com>",
 ]
 exclude = ["logo.svg", "examples/*", ".gitignore", ".github/"]
-rust-version = "1.85.0"
+# rust-version = "1.85.0"
 
 publish = true
 
